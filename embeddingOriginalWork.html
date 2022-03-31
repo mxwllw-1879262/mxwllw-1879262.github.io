@@ -6,20 +6,22 @@
     <body>
         <h1>Hello World</h1>
         <div>
-            <h2>Embedded Image</h2>
-            <img src="https://upload.wikimedia.org/wikipedia/en/a/a6/Pokémon_Pikachu_art.png"
-            title="pika" style ="width: 500px">
+            <h2>Embedded Video at 3:00, muted fullscreen feature</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Zyt2GKb6qWw?start=180" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" fs=0></iframe>
         </div>
         <div>
-            <h2>Embedded Audio</h2>
+            <h2>Embedded Audio/Video with HTML5</h2>
+            <video width="320" height="240" autoplay>
+                <source src="https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4" type="video/mp4">
+              </video>
             <audio controls>
                 <source src="https://zoneringtones.com/ringtonesave/09/pokemon-theme---gotta-catch-em-all.mp3" type="audio/mpeg">
             </audio>
         </div>
         <div>
-            <h2>Embedded Video at 3:00</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Zyt2GKb6qWw?start=180" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" fs=0></iframe>
+            <h2>Object embedded image</h2>
+            <object data="https://upload.wikimedia.org/wikipedia/en/a/a6/Pokémon_Pikachu_art.png"
+            width="300" height="200"></object>
         </div>
-        
     </body>
 </html>
