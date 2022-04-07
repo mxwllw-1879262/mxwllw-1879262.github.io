@@ -9,6 +9,8 @@ h1{
 }
 
 h2{
+    border-style:dotted;
+    border: 3px dotted #000;
     font-family:Arial;
 }
 
