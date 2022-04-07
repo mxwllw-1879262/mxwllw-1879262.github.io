@@ -17,4 +17,15 @@ img{
     max-width: 500px;
     max-height: 250px;
     float: right;
+    margin: 20px;
+}
+
+.centered {
+    display: flex;
+    align-items:center;
+}
+
+.font1{
+    border-style:"dotted";
+    font-family:"Trebuchet MS";
 }
