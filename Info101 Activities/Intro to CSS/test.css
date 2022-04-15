@@ -60,6 +60,7 @@ li{
 #LeftNav img{
     border-style: dashed;
     border-radius: 50%;
+    border-color: red;
 }
 
 #LeftNav ul{
