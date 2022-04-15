@@ -127,6 +127,55 @@
 
 	<p>&nbsp;</p>
 
+    <fieldset class="form-horizontal" >
+		<legend>Education</legend>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Level of Highest Education</label>
+			<div class="col-sm-9">
+				<select class="form-control" name="educ">
+					<option disabled=true value="" selected="true">Choose a Level</option>
+					<option value="H">High School or Equivalent</option>
+					<option value="B">Bachelors</option>
+					<option value="M">Masters</option>
+					<option value="P">PhD</option>
+				</select>
+			</div>
+		</div>
+        <div class="form-group">
+			<label class="col-sm-3 control-label">Name of Institution</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="school">
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Graduation Date</label>
+			<div class="col-sm-9">
+				<input class="form-control" type="text" name="graddate">
+			</div>
+		</div>
+	</fieldset>
+
+    <p>&nbsp;</p>
+
+    <fieldset class="form-horizontal" >
+		<legend>Resume</legend>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Resume</label>
+			<div class="col-sm-9">
+                <input type="file" id="resume" name="resume">
+			</div>
+		</div>
+        <legend>Cover Letter</legend>
+		<div class="form-group">
+			<label class="col-sm-3 control-label">Cover Letter</label>
+			<div class="col-sm-9">
+                <input type="file" id="cletter" name="cletter">
+			</div>
+		</div>
+	</fieldset>
+
+    <p>&nbsp;</p>
+
 	<fieldset>
 		<legend>Availability</legend>
 		<div class="form-group row">
@@ -228,8 +277,68 @@
 
 	<p>&nbsp;</p>
 
-	<input class="btn btn-primary btn-lg" type="submit" value="Submit form">
+    <fieldset>
+		<legend>Additional Information (Optional)</legend>
+        <div class="form-group">
+			<label class="control-label">Is there anything else we should know about you?</label>
+			<textarea class="form-control" name="additional_info" rows="6"></textarea>
+		</div>
+		<div class="form-group row">
+			<label class="col-sm-12 control-label">What gender do you identify as?</label>
+			<div class="col-sm-offset-1 col-sm-11">
+				<div class="radio">
+					<label>
+						<input type="radio" name="gender" value="man">Man
+					</label>
+				</div>
+				<div class="radio">
+					<label>
+						<input type="radio" name="gender" value="woman">Woman
+					</label>
+				</div>
+                <div class="radio">
+					<label>
+						<input type="radio" name="gender" value="other">Non-binary
+					</label>
+				</div>
+                <div class="radio">
+					<label>
+						<input type="radio" name="gender" value="na">Prefer not to specify
+					</label>
+				</div>
+			</div>
+		</div>
+		<div class="form-group row">
+			<label class="col-sm-12 control-label">How do you plan on eating lunch?</label>
+			<div class="col-sm-offset-1 col-sm-11">
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="lunch_home" value="Home-provided">
+						Bringing from home
+					</label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="lunch_company" value="Company-provided">
+						Company provided meals
+					</label>
+				</div>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" name="lunch_offcampus" value="Off-campus">
+						Off-campus meals
+					</label>
+				</div>
+			</div>
+		</div>
+	</fieldset>
 
+	<p>&nbsp;</p>
+
+    <input class="btn btn-primary btn-lg" type="submit" value="Restart">
+    <input class="btn btn-primary btn-lg" type="submit" value="Back to home">
+	<br><br><input class="btn btn-primary btn-lg" type="submit" value="Submit form">
+    
 	<p>&nbsp;</p>
 
 </form>
