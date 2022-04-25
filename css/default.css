@@ -280,22 +280,22 @@ button {
 
 .read_more {
      font-size: 17px;
-     background-color: #05254d;
+     background-color: darkgoldenrod;
      color: #fff;
     
-     width: 100%;
+     width: 120%;
      max-width: 275px;
      text-align: center;
      display: inline-block;
      transition: ease-in all 0.5s;
-     font-weight: bold;
-     height: 75px;
+     font-weight: bolder;
+     height: 60px;
      text-transform: uppercase;
-     line-height: 75px;
+     line-height: 60px;
 }
 
 .read_more:hover {
-     background: #ed1c24;
+     background: brown;
      color: #fff;
      transition: ease-in all 0.5s;
 }
@@ -321,7 +321,7 @@ button {
      width: 100%;
      z-index: 9999999;
      height: 87px;
-     background:#ed242e;
+     background: darkgoldenrod;
 }
 
 
@@ -488,7 +488,7 @@ button {
 /** banner section **/
 
 .full_bg {
-     background: url(../images/banner.png);
+     background: url(../images/MixedE.jpg);
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
@@ -570,7 +570,7 @@ button {
 }
 
 
-.photog .read_more:hover {background: #ed1c24; color: #fff;}
+.photog .read_more:hover {background:brown; color: #fff;}
 .slider_main .carousel-item {
      height: 100%;
      width: 100%;
@@ -580,7 +580,7 @@ button {
 #banner1 .carousel-control-next {
      width:80px;
      height: 80px;
-     background-color: #ed1c24;
+     background-color: brown;
      color: #fff;
      font-size: 35px;
      opacity: 1;
@@ -604,7 +604,7 @@ button {
 #banner1 .carousel-control-prev:focus,
 #banner1 .carousel-control-prev:hover {
      background-color: #fff;
-     color: #ed1c24;
+     color: brown;
 }
 
 
@@ -644,7 +644,7 @@ button {
     position: absolute;
     content: "";
     bottom: 0px;
-    background: #ed1c24;
+    background: brown;
     width: 93px;
     height: 11px;
     left: 0;
@@ -765,7 +765,7 @@ button {
 .owl-carousel .owl-nav button.owl-prev {
      width: 90px;
      height: 90px;
-     background-color: #ed1c24 !important;
+     background-color: brown !important;
      color: #fff !important;
      font-size: 55px !important;
      line-height: 30px !important;
@@ -852,7 +852,7 @@ button {
     content: "";
     left: 0;
     right: 0;
-    background: url(../images/corona_icon.png);
+    background: url(../images/mushroom-transparent-7.png);
     bottom: -40px;
     width: 80px;
     height: 81px;
@@ -926,7 +926,6 @@ button {
     position: absolute;
     content: "";
     right: 4%;
-    background: url(../images/case.png);
     top: 34%;
     width: 120px;
     height: 121px;
@@ -951,7 +950,7 @@ button {
      margin-bottom: 25px;
      width: 100%;
      height: 66px;
-     background: #fff;
+     background: beige;
      color: #a3a3a2;
      font-size: 17px;
      font-weight: normal;
@@ -961,7 +960,7 @@ button {
 .main_form .textarea {
      margin-bottom: 30px;
      width: 100%;
-     background: #fff;
+     background: beige;
      color: #a3a3a2;
      font-size: 17px;
      font-weight: normal;
@@ -985,7 +984,7 @@ button {
 }
 
 .main_form .send_btn:hover {
-     background-color: #e92f0b;
+     background-color: brown;
      transition: ease-in all 0.5s;
      color: #fff;
 }
@@ -1010,14 +1009,14 @@ button {
     position: absolute;
     content: "";
     left: 4%;
-    background: url(../images/case.png);
+    background: url(../images/224px-AD2009Sep13_Boletus_edulis_01.jpg);
     top: 3%;
     width: 120px;
     height: 121px;
     background-repeat: no-repeat;
 }
 .cevery_white {background: #fff;}
-.cevery_bg {background: url(../images/ever_bg.jpg);
+.cevery_bg {background: url(../images/MixedE.jpg);
 background-size: cover;
 background-repeat: no-repeat; background-position: center;
 padding: 80px 0;
@@ -1062,7 +1061,7 @@ padding: 80px 0;
 .subsci_btn:hover {
     transition: ease-in all 0.5s;
     color: #fff;
-    background-color: #e92f0b;
+    background-color: brown;
 }
 
 #colof *::placeholder {
@@ -1111,7 +1110,7 @@ ul.menu_footer li a {
 }
 
 ul.menu_footer li a:hover {
-    color: #e92f0b;
+    color: brown;
 }
 
 
@@ -1146,11 +1145,11 @@ ul.top_infomation li a {
 }
 
 ul.top_infomation li a:hover {
-    color: #e92f0b;
+    color: brown;
 }
 
 ul.top_infomation li i:hover {
-    background: #eb4746;
+    background: brown;
     color: #fff;
     border-radius: 25px;
     cursor: pointer;
@@ -1179,7 +1178,7 @@ ul.top_infomation li i:hover {
 }
 
 .copyright a:hover {
-    color: #ed1c24;
+    color: brown;
 }
 
 
